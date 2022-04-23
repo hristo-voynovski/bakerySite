@@ -1,0 +1,142 @@
+.topnav {
+    text-align: center;
+    background-color: rgb(219, 164, 0);
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    padding: 1.15em;
+    border-radius: 35px;
+  }
+  
+  .topnav li {
+    display: inline;
+  }
+  
+  .topnav a {
+    float: none;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px 15px;
+    text-decoration: none;
+    font-size: 25pt;
+    border-radius: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 115, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #884d00;
+    color: rgb(255, 255, 255);
+  }
+  
+  .about {
+    padding-top: 40px;
+  }
+  
+  .about p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 18pt;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .grid-container {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+    #info{
+    width: 30em;
+    text-align:justify;
+    margin: auto;
+    font-size: 18pt;
+    padding: 15px;
+  }
+  
+    #map {
+        width: 30em;
+        margin: auto;
+        font-size: 18pt;
+        padding: 15px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+  }
+  .menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  figure {
+     position: relative;
+  }
+  figure img {
+    display: block;
+    background-color:burlywood;
+    border-radius: 35px;
+  }
+  figcaption {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin: 0.5rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+  }
+  #a-first{
+    margin-top: 2em;
+  }
+  #b-first{
+    margin-top: 6em;
+  }
+  #a{
+    margin-top: 4rem;
+  }
+  #b{
+    margin-top: 8rem;
+  }
+  header{
+    text-align: center;
+  }
+  #logo {
+    width: 14em;
+    text-align: center;
+    
+  }
+  #about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: center;
+  }
+  #aboutImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+ 
+  .contactUs{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+  }
+  
+  
+  
+  
